@@ -1,0 +1,7 @@
+/* Inject Tailwind's styles into your CSS */
+
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
