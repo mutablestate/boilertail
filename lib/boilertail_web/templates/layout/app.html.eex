@@ -12,7 +12,7 @@
       <section class="container mx-auto px-8">
         <nav role="navigation">
           <ul>
-            <li class="text-elixir">
+            <li>
               <a href="https://hexdocs.pm/phoenix/overview.html">Get Started</a>
             </li>
           </ul>
