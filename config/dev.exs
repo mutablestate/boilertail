@@ -61,7 +61,8 @@ config :boilertail, BoilertailWeb.Endpoint,
       ~r"priv/static/.*(js|css|png|jpeg|jpg|gif|svg)$",
       ~r"priv/gettext/.*(po)$",
       ~r"lib/boilertail_web/{live,views}/.*(ex)$",
-      ~r"lib/boilertail_web/templates/.*(eex)$"
+      ~r"lib/boilertail_web/templates/.*(eex)$",
+      ~r{lib/boilertail_web/live/.*(ex)$}
     ]
   ]
 

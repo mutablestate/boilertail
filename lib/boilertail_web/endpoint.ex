@@ -1,6 +1,8 @@
 defmodule BoilertailWeb.Endpoint do
   use Phoenix.Endpoint, otp_app: :boilertail
 
+  socket "/live", Phoenix.LiveView.Socket
+
   socket "/socket", BoilertailWeb.UserSocket,
     websocket: true,
     longpoll: false

@@ -15,7 +15,11 @@ config :boilertail, BoilertailWeb.Endpoint,
   url: [host: "localhost"],
   secret_key_base: "th3FuSaYDaMxr7jr1rQjWYjMxGjHn9psSewCFpukLA6efmjZSXn1QNE+vMJjiCxQ",
   render_errors: [view: BoilertailWeb.ErrorView, accepts: ~w(html json)],
-  pubsub: [name: Boilertail.PubSub, adapter: Phoenix.PubSub.PG2]
+  pubsub: [name: Boilertail.PubSub, adapter: Phoenix.PubSub.PG2],
+  live_view: [
+    signing_salt: "+cCXhndNqKBaXiVlEtw8FGPA5/cTZB31"
+  ]
+
 
 # Configures Elixir's Logger
 config :logger, :console,
