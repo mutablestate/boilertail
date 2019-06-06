@@ -1,5 +1,5 @@
 <section class="text-center font-thin border-b-2 bg-gray-100 mb-12 p-12 rounded">
-  <h1 class="text-3xl text-phoenix"><%= gettext "Welcome to %{name}!", name: "Phoenix" %></h1>
+  <h1><%= gettext "Welcome to %{name}!", name: "Phoenix" %></h1>
   <p class="text-xl m-0">A productive web framework that<br/>does not compromise speed or maintainability.</p>
 </section>
 
