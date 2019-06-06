@@ -7,8 +7,8 @@
     <title>Boilertail · Phoenix Framework</title>
     <link rel="stylesheet" href="<%= Routes.static_path(@conn, "/css/app.css") %>"/>
   </head>
-  <body>
-    <header class="border-b mb-8">
+  <body class="bg-gray-200">
+    <header class="border-b mb-8 bg-white">
       <section class="container mx-auto px-8">
         <nav role="navigation">
           <ul>
